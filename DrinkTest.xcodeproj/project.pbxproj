@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE0DA3C624150E710058DE15 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0DA3C524150E710058DE15 /* Drink.swift */; };
+		AE0DA3C824150EAF0058DE15 /* SpecialOffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0DA3C724150EAF0058DE15 /* SpecialOffer.swift */; };
+		AE0DA3CA24150EEF0058DE15 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0DA3C924150EEF0058DE15 /* Price.swift */; };
 		AE6CE2392412BBD100F72BB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6CE2382412BBD100F72BB9 /* AppDelegate.swift */; };
 		AE6CE23B2412BBD100F72BB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6CE23A2412BBD100F72BB9 /* SceneDelegate.swift */; };
 		AE6CE23D2412BBD100F72BB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6CE23C2412BBD100F72BB9 /* ViewController.swift */; };
@@ -14,6 +17,11 @@
 		AE6CE2422412BBD300F72BB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE6CE2412412BBD300F72BB9 /* Assets.xcassets */; };
 		AE6CE2452412BBD300F72BB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6CE2432412BBD300F72BB9 /* LaunchScreen.storyboard */; };
 		AE6CE2502412BBD300F72BB9 /* DrinkTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6CE24F2412BBD300F72BB9 /* DrinkTestTests.swift */; };
+		AE6CE25C2412BBF900F72BB9 /* OrderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6CE25B2412BBF900F72BB9 /* OrderManager.swift */; };
+		AE6CE2622412BE5C00F72BB9 /* DrinkCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6CE2602412BE5C00F72BB9 /* DrinkCollectionViewCell.swift */; };
+		AE6CE2632412BE5C00F72BB9 /* DrinkCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE6CE2612412BE5C00F72BB9 /* DrinkCollectionViewCell.xib */; };
+		AE6CE2662412D10F00F72BB9 /* ToOrderDrinkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6CE2642412D10F00F72BB9 /* ToOrderDrinkTableViewCell.swift */; };
+		AE6CE2672412D10F00F72BB9 /* ToOrderDrinkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE6CE2652412D10F00F72BB9 /* ToOrderDrinkTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE0DA3C524150E710058DE15 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		AE0DA3C724150EAF0058DE15 /* SpecialOffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialOffer.swift; sourceTree = "<group>"; };
+		AE0DA3C924150EEF0058DE15 /* Price.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
 		AE6CE2352412BBD100F72BB9 /* DrinkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6CE2382412BBD100F72BB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE6CE23A2412BBD100F72BB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +49,11 @@
 		AE6CE24B2412BBD300F72BB9 /* DrinkTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrinkTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6CE24F2412BBD300F72BB9 /* DrinkTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkTestTests.swift; sourceTree = "<group>"; };
 		AE6CE2512412BBD300F72BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE6CE25B2412BBF900F72BB9 /* OrderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderManager.swift; sourceTree = "<group>"; };
+		AE6CE2602412BE5C00F72BB9 /* DrinkCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkCollectionViewCell.swift; sourceTree = "<group>"; };
+		AE6CE2612412BE5C00F72BB9 /* DrinkCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrinkCollectionViewCell.xib; sourceTree = "<group>"; };
+		AE6CE2642412D10F00F72BB9 /* ToOrderDrinkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToOrderDrinkTableViewCell.swift; sourceTree = "<group>"; };
+		AE6CE2652412D10F00F72BB9 /* ToOrderDrinkTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToOrderDrinkTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +95,8 @@
 		AE6CE2372412BBD100F72BB9 /* DrinkTest */ = {
 			isa = PBXGroup;
 			children = (
+				AE6CE25D2412BDD500F72BB9 /* Views */,
+				AE6CE25A2412BBEA00F72BB9 /* Models */,
 				AE6CE2382412BBD100F72BB9 /* AppDelegate.swift */,
 				AE6CE23A2412BBD100F72BB9 /* SceneDelegate.swift */,
 				AE6CE23C2412BBD100F72BB9 /* ViewController.swift */,
@@ -97,6 +115,28 @@
 				AE6CE2512412BBD300F72BB9 /* Info.plist */,
 			);
 			path = DrinkTestTests;
+			sourceTree = "<group>";
+		};
+		AE6CE25A2412BBEA00F72BB9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AE6CE25B2412BBF900F72BB9 /* OrderManager.swift */,
+				AE0DA3C524150E710058DE15 /* Drink.swift */,
+				AE0DA3C724150EAF0058DE15 /* SpecialOffer.swift */,
+				AE0DA3C924150EEF0058DE15 /* Price.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AE6CE25D2412BDD500F72BB9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE6CE2602412BE5C00F72BB9 /* DrinkCollectionViewCell.swift */,
+				AE6CE2612412BE5C00F72BB9 /* DrinkCollectionViewCell.xib */,
+				AE6CE2642412D10F00F72BB9 /* ToOrderDrinkTableViewCell.swift */,
+				AE6CE2652412D10F00F72BB9 /* ToOrderDrinkTableViewCell.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,7 +222,9 @@
 			files = (
 				AE6CE2452412BBD300F72BB9 /* LaunchScreen.storyboard in Resources */,
 				AE6CE2422412BBD300F72BB9 /* Assets.xcassets in Resources */,
+				AE6CE2672412D10F00F72BB9 /* ToOrderDrinkTableViewCell.xib in Resources */,
 				AE6CE2402412BBD100F72BB9 /* Main.storyboard in Resources */,
+				AE6CE2632412BE5C00F72BB9 /* DrinkCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +242,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE0DA3C824150EAF0058DE15 /* SpecialOffer.swift in Sources */,
+				AE6CE2622412BE5C00F72BB9 /* DrinkCollectionViewCell.swift in Sources */,
 				AE6CE23D2412BBD100F72BB9 /* ViewController.swift in Sources */,
+				AE6CE2662412D10F00F72BB9 /* ToOrderDrinkTableViewCell.swift in Sources */,
 				AE6CE2392412BBD100F72BB9 /* AppDelegate.swift in Sources */,
+				AE0DA3CA24150EEF0058DE15 /* Price.swift in Sources */,
 				AE6CE23B2412BBD100F72BB9 /* SceneDelegate.swift in Sources */,
+				AE0DA3C624150E710058DE15 /* Drink.swift in Sources */,
+				AE6CE25C2412BBF900F72BB9 /* OrderManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
